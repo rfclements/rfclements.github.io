@@ -199,26 +199,26 @@ h1, h2, h3{
     background-color: #000;
 }
 
-#insta{
+#featured{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/Sicily_2022_29.jpg') center/cover no-repeat fixed;
     min-height: 65vh;
 }
-#insta .title h2{
+#featured .title h2{
     color: var(--light-color);
 }
-#insta .title h2::after{
+#featured .title h2::after{
     background-color: var(--light-color);
 }
-.insta-grid > div{
+.featured-grid > div{
     height: 400px;
     overflow: hidden;
     transition: var(--transition);
 }
-.insta-grid > div img{
+.featured-grid > div img{
     height: 100%;
     object-fit: cover;
 }
-.insta-grid > div:hover{
+.featured-grid > div:hover{
     transform: scale(0.9);
 }
 
