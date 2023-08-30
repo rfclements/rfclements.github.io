@@ -18,7 +18,6 @@
                <!-- <h1>I'm a <br><span class = "typewrite" data-loop = "yes" data-speed = "100" data-delay = "2000" data-words = '["photographer", "videographer", "video editor"]'></span></h1> -->
                 <h1>Riley Clements</h1>
                 <h1>Photography</h1>
-
                 <ul class = "social-links">
                     <li>
                         <a href = "#" class = "flex">
@@ -45,7 +44,6 @@
         </div>
     </header>
     <!-- end of header -->
-
     <!-- main content -->
     <main>
         <!-- about section -->
@@ -69,12 +67,10 @@
             </div>
         </section>
         <!-- end of about section -->
-
         <!-- work section -->
         <!-- end of work section -->
-
         <!-- portfolio section -->
-         <section id = "portfolio" class = "vh-100 py-7">
+        <section id = "portfolio" class = "vh-100 py-7">
             <div class = "container">
                 <div class = "portfolio-content">
                     <div class = "title">
@@ -83,27 +79,36 @@
                             <i class = "fas fa-chevron-down"></i>
                         </a>
                     </div>
-
+                    
+                    <!-- TEST -->
                     <div class="slideshow-container">
-                        <div class="mySlides fade">
-                            <img src="images/Sicily_2022_267.jpg" style="width:100%">
-                        </div>
                         <div class="mySlides fade">
                             <img src="images/California_273.jpg" style="width:100%">
                         </div>
+                        
                         <div class="mySlides fade">
-                            <img src="images/Morocco_121.jpg" style="width:100%">
-                            <br>
-                            <div style="text-align:center">
-                                <span class="dot"></span> 
-                                <span class="dot"></span> 
-                                <span class="dot"></span> 
-                            </div>                    
+                            <img src="images/Bulgaria_204.jpg" style="width:100%">
+                        </div>   
+                        
+                        <div class="mySlides fade">
+                            <img src="images/Sicily_2022_267.jpg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                       <!-- TEST -->
+                    
                 </div>
             </div>
         </section>
         <!-- end of portfolio section -->
-
                 <!-- featured section -->
         <section id = "featured" class = "py-7">
             <div class = "container">
@@ -146,7 +151,6 @@
             </div>
         </section>
         <!-- end of featured section -->
-
         <!-- contact section -->
         <section id = "contact" class = "py-7">
             <div class = "container">
@@ -163,7 +167,6 @@
                             <input type = "submit" class = "btn-submit btn" value = "Submit">
                         </form>
                     </div>
-
                     <div class = "contact-right">
                         <img src = "images/Morocco_216_5x4.jpg" alt = "contact image">
                     </div>
@@ -174,7 +177,6 @@
         
     </main>
     <!-- end of main content -->
-
     <!-- footer -->
     <footer id = "footer" class = "py-7">
         <div class = "container">
@@ -183,7 +185,6 @@
                     <h3>RILEY CLEMENTS</h3>
                     <div><img src = "images/Morocco_263_square.jpg"></div>
                 </div>
-
                 <div>
                     <h3>Links</h3>
                     <ul class = "flex">
@@ -198,9 +199,9 @@
         </div>
     </footer>
     <!-- end of footer -->
-
-
+    
     <!-- typewriting js -->
     <script src = "slideshow/portfolio-slideshow.js"></script>
 </body>
 </html>
+                    
