@@ -135,35 +135,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-
-    let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
 </script>
 
                     <!-- TEST -->
                     
-                  <!--  <div class = "portfolio-grid grid"> -->
-                   <!--     <div><img src = "images/California_273.jpg"></div> -->
-                   <!--     <div><img src = "images/California_289.jpg"></div> -->
-                   <!--     <div><img src = "images/Bulgaria_129.jpg"></div> -->
-                    <!--    <div><img src = "images/Bulgaria_204.jpg"></div> -->
-                    <!--    <div><img src = "images/Morocco_121.jpg"></div> -->
-                    <!--    <div><img src = "images/Morocco_8.jpg"></div> -->
-                    <!--    <div><img src = "images/Sicily_2022_267.jpg"></div> -->
-                    <!--    <div><img src = "images/Sicily_2022_27.jpg"></div> -->
-                   <!-- </div> -->
                     
                 </div>
             </div>
