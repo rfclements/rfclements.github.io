@@ -182,11 +182,11 @@ h1, h2, h3{
 }
 .contact-left form .form-control::placeholder{
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Libre Bodoni', serif;
 }
 .contact-left .btn-submit{
     padding: 1.4rem 3rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Libre Bodoni', serif;
     background-color: var(--dark-color);
     color: var(--light-color);
     margin-top: 1rem;
