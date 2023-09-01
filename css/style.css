@@ -603,6 +603,9 @@ h1, h2, h3{
 	padding-bottom: .5em;
 	border: 0px solid #a2a2a2;
 	background-color: #f4f4f4;
+	position: fixed;
+	top: 0;
+	width: 100%;
 	
 }
 
