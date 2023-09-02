@@ -80,7 +80,7 @@ h1, h2, h3{
 .about-left{
     margin-bottom: 4rem;
     /*height: 480px;*/
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 /* button down and title -reusable */
 .btn-down{
