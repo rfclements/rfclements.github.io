@@ -79,7 +79,7 @@ h1, h2, h3{
 /* about */
 .about-left{
     margin-bottom: 4rem;
-    height: 480px;
+    /*height: 480px;*/
     overflow: hidden;
 }
 /* button down and title -reusable */
@@ -114,54 +114,6 @@ h1, h2, h3{
     height: 4px;
     background-color: var(--dark-color);
 }
-
-/* work */
-
-/* contact */
-#contact{
-    background-color: rgb(248, 248, 248);
-}
-.contact-content{
-    flex-direction: column;
-    align-items: stretch;
-}
-.contact-left{
-    margin-bottom: 5rem;
-}
-.contact-left .lead{
-    padding: 0.5rem;
-}
-.contact-left form{
-    margin-top: 3rem;
-}
-.contact-left form .form-control{
-    display: block;
-    margin: 1.6rem 0;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    padding: 1rem;
-    width: 100%;
-}
-.contact-left form .form-control::placeholder{
-    font-size: 15px;
-    font-family: 'Libre Bodoni', serif;
-}
-.contact-left .btn-submit{
-    padding: 1.4rem 3rem;
-    font-family: 'Libre Bodoni', serif;
-    background-color: var(--dark-color);
-    color: var(--light-color);
-    margin-top: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1.6rem;
-    transition: var(--transition);
-}
-.contact-left .btn-submit:hover{
-    background-color: #000;
-}
-
-
-
 /* Media Queries */
 
 @media(min-width: 450px){
