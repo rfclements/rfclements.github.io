@@ -224,9 +224,9 @@ h1, h2, h3{
 
 /* footer */
 #footer{
-    background-color: var(--dark-color);
-    color: #000000;
-    /*color: var(--light-color);*/
+    /*background-color: var(--dark-color);*/
+    background-color: #000000;
+    color: var(--light-color);
 }
 .footer-content{
     text-align: center;
