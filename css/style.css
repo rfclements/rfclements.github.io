@@ -574,6 +574,7 @@ h1, h2, h3{
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 9999;
 }
 
 .topnav a {
@@ -582,7 +583,7 @@ h1, h2, h3{
   color: #2A3846;
   text-align: center;
   padding: 20px 15px;
-  padding-top: 1.3em;
+  padding-top: .6em;
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
@@ -594,7 +595,7 @@ h1, h2, h3{
   font-size: 23px;
   letter-spacing: 0.18em;
   padding-top: .6em;
-  padding-bottom: 1.2em;
+  padding-bottom: .6em;
 }
 
 .active {
@@ -634,9 +635,9 @@ h1, h2, h3{
 }
 
 @media screen and (max-width: 860px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
-    position: absolute;
+    position: fixed;
           padding-top: 1.65em;
     right: 0;
     top: 0;
