@@ -102,7 +102,7 @@
     letter-spacing: 1px;
 }
 .footer-content ul{
-    flex-direction: column;
+    flex-direction: row;
 }
 .footer-content ul li a{
     color: var(--light-color);
