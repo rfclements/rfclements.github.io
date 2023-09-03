@@ -140,8 +140,8 @@ h1, h2, h3{
     color: #000000;
     font-size: 23px;
     letter-spacing: 0.2em;
-    padding-top: 0.9em;
-    padding-bottom: .9em;
+    padding-top: .1em;
+    padding-bottom: .1em;
     text-transform: uppercase;
 }
 .title h2{
@@ -206,18 +206,19 @@ h1, h2, h3{
     background-color: #000;
 }
 
+/* featured */
 #featured{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/Sicily_2022_29.jpg') center/cover no-repeat fixed;
     min-height: 65vh;
 }
-#featured .title h2{
+#featured .title {
     color: var(--light-color);
 }
 #featured .title h2::after{
     background-color: var(--light-color);
 }
 .featured-grid > div{
-    height: 400px;
+    height: 300px;
     overflow: hidden;
     transition: var(--transition);
 }
@@ -228,8 +229,6 @@ h1, h2, h3{
 .featured-grid > div:hover{
     transform: scale(0.9);
 }
-
-
 
 /* Media Queries */
 
