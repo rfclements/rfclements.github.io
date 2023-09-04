@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Bodoni:wght@300;400;500;600;700&display=swap');
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.py-7{
+    padding: 7rem 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* NAV BAR */
 .topnav {
   overflow: hidden;
