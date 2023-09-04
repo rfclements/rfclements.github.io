@@ -122,7 +122,8 @@ h1, h2, h3{
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 5px;
-  padding-top: 2em;
+  padding-top: 2.5em;
+    padding-bottom: .5em;
    justify-content: center;
 }
 
