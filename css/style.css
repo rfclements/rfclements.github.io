@@ -566,7 +566,7 @@ h1, h2, h3{
 .carousel-item img {
    margin: auto;
     display: block;
-    height: auto;
+    height: 600px;
     max-width: 100%;
 }
 
