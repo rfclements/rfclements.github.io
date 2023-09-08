@@ -535,20 +535,3 @@ h1, h2, h3{
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-
-/* TEST */
-        .att2 {
-            background-size: cover;
-            height: 400px;
-            width: auto;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-        }
-
-@media only screen and (max-width: 500px) {
-    .h-100px{
-        height: 100px!important;
-        /*background-size: contain!important;*/
-
-    }
-}
