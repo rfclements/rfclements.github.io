@@ -540,6 +540,13 @@ h1, h2, h3{
 
 /* TEST 2 */
 
+.line {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
 
 .center {
   @extend .flex;
@@ -564,7 +571,6 @@ h1, h2, h3{
 .carousel {
   @extend .line;
   overflow: hidden;
-  border-radius: 15px;
 
   ul {
     @extend .center;
@@ -584,7 +590,7 @@ h1, h2, h3{
     @extend .line;
 
     img {
-      @extend .line; 
+      @extend .line;
     }
   }
 }
@@ -637,8 +643,8 @@ h1, h2, h3{
 
 // ARROWS
 %arrow {
-  color: white;
   $arrow-size: 50px;
+  color: white;
   display: none;  // hidden by default
   position: absolute;
 
