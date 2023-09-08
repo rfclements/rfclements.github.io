@@ -540,6 +540,8 @@ h1, h2, h3{
 
 /* TEST 2 */
 
+$nb-slides: 5;
+
 .line {
   width: 100%;
 }
